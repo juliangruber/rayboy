@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DD76F6A0486A84900D96B5E /* rayboy.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* rayboy.1 */; };
+		B92A1C620BC673AC009E9137 /* rayboy_4.xcclassmodel in CopyFiles */ = {isa = PBXBuildFile; fileRef = B92A1C610BC673AC009E9137 /* rayboy_4.xcclassmodel */; };
+		B92A1C640BC673BD009E9137 /* scene.cpp_2.xcclassmodel in CopyFiles */ = {isa = PBXBuildFile; fileRef = B92A1C630BC673BD009E9137 /* scene.cpp_2.xcclassmodel */; };
+		B992F0160BAC288B0008DFDC /* EasyBMP_BMP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B992F0100BAC288B0008DFDC /* EasyBMP_BMP.h */; };
+		B992F0180BAC288B0008DFDC /* EasyBMP_DataStructures.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B992F0120BAC288B0008DFDC /* EasyBMP_DataStructures.h */; };
+		B992F0190BAC288B0008DFDC /* EasyBMP_VariousBMPutilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B992F0130BAC288B0008DFDC /* EasyBMP_VariousBMPutilities.h */; };
+		B992F01A0BAC288B0008DFDC /* EasyBMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B992F0140BAC288B0008DFDC /* EasyBMP.cpp */; };
+		B992F01B0BAC288B0008DFDC /* EasyBMP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B992F0150BAC288B0008DFDC /* EasyBMP.h */; };
+		B9ACB87D0BA7310E00755C94 /* pixel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B9ACB87B0BA7310E00755C94 /* pixel.h */; };
+		B9ACB87E0BA7310E00755C94 /* pixel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ACB87C0BA7310E00755C94 /* pixel.cpp */; };
+		B9ACB8840BA731DE00755C94 /* structs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B9ACB8830BA731DE00755C94 /* structs.h */; };
+		B9ACB9690BA736CC00755C94 /* eye.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B9ACB9670BA736CC00755C94 /* eye.h */; };
+		B9ACB96A0BA736CC00755C94 /* eye.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ACB9680BA736CC00755C94 /* eye.cpp */; };
+		B9ACB9B60BA738C500755C94 /* ray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B9ACB9B40BA738C500755C94 /* ray.h */; };
+		B9ACB9B70BA738C500755C94 /* ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ACB9B50BA738C500755C94 /* ray.cpp */; };
+		B9ACB9ED0BA73F2000755C94 /* vector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B9ACB9EB0BA73F2000755C94 /* vector.h */; };
+		B9ACB9EE0BA73F2000755C94 /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ACB9EC0BA73F2000755C94 /* vector.cpp */; };
+		B9F005600BA86FD40035EB66 /* primitive.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B9F0055E0BA86FD40035EB66 /* primitive.h */; };
+		B9F005610BA86FD40035EB66 /* primitive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9F0055F0BA86FD40035EB66 /* primitive.cpp */; };
+		B9F005960BA872AF0035EB66 /* scene.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B9F005940BA872AF0035EB66 /* scene.h */; };
+		B9F005970BA872AF0035EB66 /* scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9F005950BA872AF0035EB66 /* scene.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* rayboy.1 in CopyFiles */,
+				B9ACB87D0BA7310E00755C94 /* pixel.h in CopyFiles */,
+				B9ACB8840BA731DE00755C94 /* structs.h in CopyFiles */,
+				B9ACB9690BA736CC00755C94 /* eye.h in CopyFiles */,
+				B9ACB9B60BA738C500755C94 /* ray.h in CopyFiles */,
+				B9ACB9ED0BA73F2000755C94 /* vector.h in CopyFiles */,
+				B9F005600BA86FD40035EB66 /* primitive.h in CopyFiles */,
+				B9F005960BA872AF0035EB66 /* scene.h in CopyFiles */,
+				B992F0160BAC288B0008DFDC /* EasyBMP_BMP.h in CopyFiles */,
+				B992F0180BAC288B0008DFDC /* EasyBMP_DataStructures.h in CopyFiles */,
+				B992F0190BAC288B0008DFDC /* EasyBMP_VariousBMPutilities.h in CopyFiles */,
+				B992F01B0BAC288B0008DFDC /* EasyBMP.h in CopyFiles */,
+				B92A1C620BC673AC009E9137 /* rayboy_4.xcclassmodel in CopyFiles */,
+				B92A1C640BC673BD009E9137 /* scene.cpp_2.xcclassmodel in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* rayboy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rayboy; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92A1C610BC673AC009E9137 /* rayboy_4.xcclassmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcclassmodel; path = rayboy_4.xcclassmodel; sourceTree = "<group>"; };
+		B92A1C630BC673BD009E9137 /* scene.cpp_2.xcclassmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcclassmodel; path = scene.cpp_2.xcclassmodel; sourceTree = "<group>"; };
+		B992F0100BAC288B0008DFDC /* EasyBMP_BMP.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = EasyBMP_BMP.h; sourceTree = "<group>"; };
+		B992F0120BAC288B0008DFDC /* EasyBMP_DataStructures.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = EasyBMP_DataStructures.h; sourceTree = "<group>"; };
+		B992F0130BAC288B0008DFDC /* EasyBMP_VariousBMPutilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = EasyBMP_VariousBMPutilities.h; sourceTree = "<group>"; };
+		B992F0140BAC288B0008DFDC /* EasyBMP.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = EasyBMP.cpp; sourceTree = "<group>"; };
+		B992F0150BAC288B0008DFDC /* EasyBMP.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = EasyBMP.h; sourceTree = "<group>"; };
+		B9ACB87B0BA7310E00755C94 /* pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pixel.h; sourceTree = "<group>"; };
+		B9ACB87C0BA7310E00755C94 /* pixel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pixel.cpp; sourceTree = "<group>"; };
+		B9ACB8830BA731DE00755C94 /* structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structs.h; sourceTree = "<group>"; };
+		B9ACB9670BA736CC00755C94 /* eye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eye.h; sourceTree = "<group>"; };
+		B9ACB9680BA736CC00755C94 /* eye.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eye.cpp; sourceTree = "<group>"; };
+		B9ACB9B40BA738C500755C94 /* ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ray.h; sourceTree = "<group>"; };
+		B9ACB9B50BA738C500755C94 /* ray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ray.cpp; sourceTree = "<group>"; };
+		B9ACB9EB0BA73F2000755C94 /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		B9ACB9EC0BA73F2000755C94 /* vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
+		B9F0055E0BA86FD40035EB66 /* primitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = primitive.h; sourceTree = "<group>"; };
+		B9F0055F0BA86FD40035EB66 /* primitive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = primitive.cpp; sourceTree = "<group>"; };
+		B9F005940BA872AF0035EB66 /* scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scene.h; sourceTree = "<group>"; };
+		B9F005950BA872AF0035EB66 /* scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scene.cpp; sourceTree = "<group>"; };
+		C6859E8B029090EE04C91782 /* rayboy.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = rayboy.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* rayboy */ = {
+			isa = PBXGroup;
+			children = (
+				B992F0100BAC288B0008DFDC /* EasyBMP_BMP.h */,
+				B992F0120BAC288B0008DFDC /* EasyBMP_DataStructures.h */,
+				B992F0130BAC288B0008DFDC /* EasyBMP_VariousBMPutilities.h */,
+				B992F0140BAC288B0008DFDC /* EasyBMP.cpp */,
+				B992F0150BAC288B0008DFDC /* EasyBMP.h */,
+				B9F005940BA872AF0035EB66 /* scene.h */,
+				B9F005950BA872AF0035EB66 /* scene.cpp */,
+				B9ACB8830BA731DE00755C94 /* structs.h */,
+				B9ACB9B40BA738C500755C94 /* ray.h */,
+				B9ACB9B50BA738C500755C94 /* ray.cpp */,
+				B9ACB9EB0BA73F2000755C94 /* vector.h */,
+				B9F0055E0BA86FD40035EB66 /* primitive.h */,
+				B9F0055F0BA86FD40035EB66 /* primitive.cpp */,
+				B9ACB9EC0BA73F2000755C94 /* vector.cpp */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = rayboy;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B9ACB87B0BA7310E00755C94 /* pixel.h */,
+				B9ACB87C0BA7310E00755C94 /* pixel.cpp */,
+				B9ACB9670BA736CC00755C94 /* eye.h */,
+				B9ACB9680BA736CC00755C94 /* eye.cpp */,
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				B92A1C630BC673BD009E9137 /* scene.cpp_2.xcclassmodel */,
+				B92A1C610BC673AC009E9137 /* rayboy_4.xcclassmodel */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* rayboy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* rayboy.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* rayboy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "rayboy" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rayboy;
+			productInstallPath = "$(HOME)/bin";
+			productName = rayboy;
+			productReference = 8DD76F6C0486A84900D96B5E /* rayboy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "rayboy" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* rayboy */;
+			projectDirPath = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* rayboy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				B9ACB87E0BA7310E00755C94 /* pixel.cpp in Sources */,
+				B9ACB96A0BA736CC00755C94 /* eye.cpp in Sources */,
+				B9ACB9B70BA738C500755C94 /* ray.cpp in Sources */,
+				B9ACB9EE0BA73F2000755C94 /* vector.cpp in Sources */,
+				B9F005610BA86FD40035EB66 /* primitive.cpp in Sources */,
+				B9F005970BA872AF0035EB66 /* scene.cpp in Sources */,
+				B992F01A0BAC288B0008DFDC /* EasyBMP.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = rayboy;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = rayboy;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "rayboy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "rayboy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
